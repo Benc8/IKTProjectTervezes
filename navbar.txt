@@ -1,0 +1,7 @@
+sidebar:forrasok
+	CPM
+	MPM
+	Kockázatelemzés
+	költség becslése
+	kiegyensúlyózás
+	
