@@ -2,6 +2,26 @@ sidebar:forrasok
 	CPM
 	MPM
 	Kockázatelemzés
+	
+Összefoglaló a kockázatelemzésről projektmenedzsment keretében:
+A kockázatelemzés a projektbizonytalanságot negatív/pozitív hatásokkal (veszteség/nyereség) értékeli, valószínűségük alapján. Három fő tevékenységcsoportra oszlik:
+Kockázati források azonosítása (határidő, költség, műszaki paraméterek).
+Hatáselemzés: A kockázati tényezők hatásának számszerűsítése, grafikus ábrázolással (pl. érzékenységi vizsgálat).
+Kockázatelemzés módszerei:
+Érzékenységi vizsgálat: Egyedi változók hatásának elemzése (pl. Delphi-módszerrel), előnye a kritikus kockázatok azonosítása, hátránya a változók független kezelése.
+Valószínűségi elemzés: Kockázatok együttes hatásának vizsgálata valószínűségi eloszlásokkal. Példa: Várható érték = valószínűség × hatás (pl. 0,10 × 50 000 Ft + 0,05 × 85 000 Ft = 9250 Ft).
+Példa kockázatprioritizálásra:
+K01 (70% valószínűség, 4,5 MFt veszteség) → Magas kockázat (magas valószínűség és költséghatás).
+K02 (25% valószínűség, 2 nap késés) → Elhanyagolható (alacsony hatás).
+K03 (50% valószínűség, 3 hét csúszás) → Közepes (közepes valószínűség és hatás).
+Kockázatkezelési stratégiák:
+Elfogadás (hatások tudatos vállalása).
+Elkerülés (kockázatos tevékenység kihagyása).
+Szabályozás (tartaléktervek, figyelmeztetések).
+Átruházás (biztosítás, szerződések).
+Csökkentés (proaktív intézkedések).
+Célok: A projekt hatékonyabb megvalósítása és reális gazdasági értékelése. A kockázati mátrixok segítenek a konzisztens döntéshozatalban, és hangsúlyozzák a folyamatos kockázatmonitorozást.
+
 	költség becslése
 	kiegyensúlyózás
 	
