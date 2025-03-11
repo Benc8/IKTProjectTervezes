@@ -40,3 +40,19 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+let links = [ 'section1', 'section2', 'section3'].map((id) => document.querySelector(`a[href="#${id}"]`)).filter((link) => link !== null);
+let navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+links.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        let targetElement = document.querySelector(e.target.getAttribute('href'));
+
+        window.scrollTo({
+            top: targetElement.offsetTop - navbarHeight,
+            behavior: 'smooth'
+        });
+    });
+});
+
