@@ -1,25 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Főoldal</title>
-    <!-- Latest compiled and minified CSS -->
+    <title>Kritikus Út Módszer (CPM)</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/smootdropdown.css" type="text/css">
     <link rel="stylesheet" href="./css/main_light.css" id="cssLink" type="text/css">
     <link rel="shortcut icon" href="./img/mechwart_logo.webp" type="image/x-icon">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-theme="light" id="body">
-    <nav class="navbar navbar-expand-md sticky-top" id="nav">
-        <div class="container-fluid">
-            <div class="navbar-brand logo-img">
-                <a href="index.html"><img src="./img/mechwart_logo.webp" alt="" class="col-7"></a>
-            </div>
-            <div class="navbar-brand logo-img">
-                <h1 style="text-indent: -20%;">Mechwart</h1>
-            </div>
+
+<nav class="navbar navbar-expand-md sticky-top" id="nav">
+    <div class="container-fluid">
+        <div class="navbar-brand logo-img">
+            <a href="index.html"><img src="./img/mechwart_logo.webp" alt="" class="col-7"></a>
+        </div>
+        <div class="navbar-brand logo-img">
+            <h1 style="text-indent: -20%;">Mechwart</h1>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,66 +27,88 @@
                 <li class="nav-item smootdropdown_container">
                     <a class="nav-link dropdown-toggle" href="#">Oldalaink</a>
                     <div class="menuitem">
-                        <a class="btn mt-2" href="cpm.html">CPM</a>
+                        <a class="btn mt-2" href="index.html">Főoldal</a>
                         <a class="btn mt-2" href="mpm.html">MPM</a>
                         <a class="btn mt-2" href="kockazatelemzes.html">Kockázatelemzés</a>
                         <a class="btn mt-2" href="koltsegek.html">Költség becslése</a>
                         <a class="btn mt-2" href="kiegyensulyozas.html">Kiegyensúlyozás</a>
+                        <a class="btn mt-2" href="dokumentacio.html">Projectdokumentáció</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section1">Téma</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section2">Bemutatkozás</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section3">Linkek</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" onchange="themeChange()" >
+                    <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" onchange="themeChange()">
                     <label class="form-check-label" for="mySwitch">Dark Mode</label>
                 </div>
             </ul>
         </div>
-        </div>
-    </nav>
-    <hr>
+    </div>
+</nav>
 
-    <main id="#secion3">
-        
-    </main>
+<main class="container mt-5">
+    <div class="card p-4 shadow-sm">
+        <h1 class="text-center text-primary">Kritikus Út Módszer (CPM)</h1>
+        <h2 class="text-secondary">Mi az a CPM?</h2>
+        <p>A Kritikus Út Módszer (CPM) egy projektmenedzsment technika, amelyet a projektben lévő legfontosabb tevékenységek azonosítására és ütemezésére használnak.</p>
 
-    <footer class="mt-5">
-        <div class="footer-content container">
-            <div class="footer-section about">
-                <h5>Iskolánk</h5>
-                <p>Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</p>
-                <p>"A Mechwart egy jó hely!"</p>
-            </div>
-            <div class="footer-section developers">
-                <h5>Fejlesztők</h5>
-                <ul>
-                    <li>Oláh Kende</li>
-                    <li>Nagy Hunor</li>
-                    <li>Menyhért Bence</li>
-                </ul>
-            </div>
-            <div class="footer-section social">
-                <h5 class="mt-4">Forrás</h5>
-                <div class="social-links">
-                    <a href="https://www.dszcmechwart.hu/" target="_blank" class="social-icon">Mechwart<i class="fab fa-facebook-f"></i> 2025.03.04.</a>
-                </div>
+        <h2 class="text-secondary">Kritikus Út</h2>
+        <ul>
+            <li>A projekt leghosszabb tevékenységsorozata</li>
+            <li>Meghatározza a projekt minimális időtartamát</li>
+            <li>Késlekedés esetén a teljes projekt is elcsúszik</li>
+        </ul>
+
+        <h2 class="text-secondary">Tartalékidő</h2>
+        <ul>
+            <li>Nem kritikus tevékenységeknél előforduló szabadidő</li>
+            <li>Kétféle típus: szabad és függő tartalékidő</li>
+            <li>Lehetőséget biztosít a rugalmas erőforrás-allocációra</li>
+        </ul>
+
+        <h3 class="text-danger">Fontos elemek:</h3>
+        <ol>
+            <li>Tevékenységlista összeállítása</li>
+            <li>Függőségi kapcsolatok meghatározása</li>
+            <li>Időtartamok becslése</li>
+            <li>Kritikus út kalkulációja</li>
+            <li>Tartalékidők számítása</li>
+        </ol>
+
+        <p class="mt-4 fst-italic">
+            A tartalékidő kiszámítása létfontosságú a projekt kockázatkezelésében, mivel lehetővé teszi a nem várt késések elnyelését anélkül, hogy az hatással lenne a projekt végdátumára.
+        </p>
+    </div>
+</main>
+
+<footer class="mt-5">
+    <div class="footer-content container">
+        <div class="footer-section about">
+            <h5>Iskolánk</h5>
+            <p>Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</p>
+            <p>"A Mechwart egy jó hely!"</p>
+        </div>
+        <div class="footer-section developers">
+            <h5>Fejlesztők</h5>
+            <ul>
+                <li>Oláh Kende</li>
+                <li>Nagy Hunor</li>
+                <li>Menyhért Bence</li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h5 class="mt-4">Forrás</h5>
+            <div class="social-links">
+                <a href="https://www.dszcmechwart.hu/" target="_blank" class="social-icon">Mechwart<i class="fab fa-facebook-f"></i> 2025.03.04.</a>
             </div>
         </div>
-        <div class="footer-bottom text-center">
-            <p>&copy; 2025 Mechwart</p>
-        </div>
-    </footer>
+    </div>
+    <div class="footer-bottom text-center">
+        <p>&copy; 2025 Mechwart</p>
+    </div>
+</footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
