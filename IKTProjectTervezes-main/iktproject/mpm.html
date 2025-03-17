@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metra Potenciál Módszer (MPM)</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/smootdropdown.css" type="text/css">
+    <link rel="stylesheet" href="./css/main_light.css" id="cssLink" type="text/css">
+    <link rel="shortcut icon" href="./img/mechwart_logo.webp" type="image/x-icon">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-theme="light" id="body">
+<nav class="navbar navbar-expand-md sticky-top" id="nav">
+    <div class="container-fluid">
+        <div class="navbar-brand logo-img">
+            <a href="index.html"><img src="./img/mechwart_logo.webp" alt="" class="col-7"></a>
+        </div>
+        <div class="navbar-brand logo-img">
+            <h1 style="text-indent: -20%;">Mechwart</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item smootdropdown_container">
+                    <a class="nav-link dropdown-toggle" href="#">Oldalaink</a>
+                    <div class="menuitem">
+                        <a class="btn mt-2" href="cpm.html">CPM</a>
+                        <a class="btn mt-2" href="index.html">Főoldal</a>
+                        <a class="btn mt-2" href="kockazatelemzes.html">Kockázatelemzés</a>
+                        <a class="btn mt-2" href="koltsegek.html">Költség becslése</a>
+                        <a class="btn mt-2" href="kiegyensulyozas.html">Kiegyensúlyozás</a>
+                        <a class="btn mt-2" href="dokumentacio.html">Projectdokumentáció</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" onchange="themeChange()">
+                    <label class="form-check-label" for="mySwitch">Dark Mode</label>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr>
+
+<main class="container mt-5">
+    <div class="card p-4 shadow-sm mx-auto" >
+        <h1 class="text-center text-primary">Metra Potenciál Módszer (MPM)</h1>
+        <h2 class="text-secondary">Mi az a MPM?</h2>
+        <p>
+            A Metra Potenciál Módszer (MPM) egy francia eredetű projektütemezési technika, amely a tevékenységek közötti logikai kapcsolatokat és
+            időbeli függőségeket modellezi irányított gráfok segítségével.
+        </p>
+        <h2 class="text-secondary">Kritikus Út az MPM-ben</h2>
+        <ul>
+            <li>A leghosszabb, nullára szűkülő tartalékidővel rendelkező útvonal</li>
+            <li>Meghatározza a projekt minimális végrehajtási idejét</li>
+            <li>MPM esetén tevékenységeket csomópontokkal, függőségeket nyilakkal ábrázoljuk</li>
+        </ul>
+        <h2 class="text-secondary">Potenciálidő</h2>
+        <ul>
+            <li>Korai és késői dátumok közötti különbségként számítják</li>
+            <li>Két típus: előrehaladási és visszamenőleges potenciálidő</li>
+            <li>Lehetővé teszi a rugalmas erőforrás-átütemzést a kritikus út mentén</li>
+        </ul>
+        <h3 class="text-danger">Jellemző lépések:</h3>
+        <ol>
+            <li>Hálózati diagram készítése csomópontokkal (tevékenységek)</li>
+            <li>Logikai kapcsolatok feltüntetése nyilakkal</li>
+            <li>Korai és késői kezdési/befejezési dátumok számítása</li>
+            <li>Potenciálidők meghatározása</li>
+            <li>Kritikus út azonosítása (0 potenciálidős útvonal)</li>
+        </ol>
+        <p class="mt-4 fst-italic">
+            Az MPM egyedülálló előnye a kétirányú időszámítás: előrehaladó számítással meghatározzuk a korai dátumokat,
+            visszafelé számítással pedig a késői dátumokat. A potenciálidő elemzése lehetővé teszi a kockázatok
+            szisztematikus kezelését anélkül, hogy a hálózati struktúrát módosítani kellene.
+        </p>
+    </div>
+</main>
+
+<footer class="mt-5">
+    <div class="footer-content container">
+        <div class="footer-section about">
+            <h5>Iskolánk</h5>
+            <p>Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</p>
+            <p>"A Mechwart egy jó hely!"</p>
+        </div>
+        <div class="footer-section developers">
+            <h5>Fejlesztők</h5>
+            <ul>
+                <li>Oláh Kende</li>
+                <li>Nagy Hunor</li>
+                <li>Menyhért Bence</li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h5 class="mt-4">Forrás</h5>
+            <div class="social-links">
+                <a href="https://www.dszcmechwart.hu/" target="_blank" class="social-icon">
+                    Mechwart<i class="fab fa-facebook-f"></i> 2025.03.04.
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom text-center">
+        <p>&copy; 2025 Mechwart</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

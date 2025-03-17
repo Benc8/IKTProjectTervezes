@@ -1,0 +1,58 @@
+sidebar:forrasok
+	CPM
+	MPM
+	Kockázatelemzés
+	
+Összefoglaló a kockázatelemzésről projektmenedzsment keretében:
+A kockázatelemzés a projektbizonytalanságot negatív/pozitív hatásokkal (veszteség/nyereség) értékeli, valószínűségük alapján. Három fő tevékenységcsoportra oszlik:
+Kockázati források azonosítása (határidő, költség, műszaki paraméterek).
+Hatáselemzés: A kockázati tényezők hatásának számszerűsítése, grafikus ábrázolással (pl. érzékenységi vizsgálat).
+Kockázatelemzés módszerei:
+Érzékenységi vizsgálat: Egyedi változók hatásának elemzése (pl. Delphi-módszerrel), előnye a kritikus kockázatok azonosítása, hátránya a változók független kezelése.
+Valószínűségi elemzés: Kockázatok együttes hatásának vizsgálata valószínűségi eloszlásokkal. Példa: Várható érték = valószínűség × hatás (pl. 0,10 × 50 000 Ft + 0,05 × 85 000 Ft = 9250 Ft).
+Példa kockázatprioritizálásra:
+K01 (70% valószínűség, 4,5 MFt veszteség) → Magas kockázat (magas valószínűség és költséghatás).
+K02 (25% valószínűség, 2 nap késés) → Elhanyagolható (alacsony hatás).
+K03 (50% valószínűség, 3 hét csúszás) → Közepes (közepes valószínűség és hatás).
+Kockázatkezelési stratégiák:
+Elfogadás (hatások tudatos vállalása).
+Elkerülés (kockázatos tevékenység kihagyása).
+Szabályozás (tartaléktervek, figyelmeztetések).
+Átruházás (biztosítás, szerződések).
+Csökkentés (proaktív intézkedések).
+Célok: A projekt hatékonyabb megvalósítása és reális gazdasági értékelése. A kockázati mátrixok segítenek a konzisztens döntéshozatalban, és hangsúlyozzák a folyamatos kockázatmonitorozást.
+
+	költség becslése
+
+Összefoglaló a költségbecslési módszerekről projektmenedzsment keretében:
+A projektköltségek becslése a háromszög (idő, költség, minőség) kritikus eleme, amely a szükséges pénzügyi erőforrások előrejelzését szolgálja. A becslések pontossága alapján három kategória különül el:
+Hasraütéses becslés: Kezdeti, nagy tévedési aránnyal rendelkező becslés, célja a projekt indokoltsságának gyors felmérése.
+Durva nagyságrend (ROM): Korábbi projektek adataira épülő, nagy szórással rendelkező becslés.
+Részletes becslés: Pontos, lentről felfelé (feladatonkénti) megközelítés, részletes termékismeretet igényel.
+Elterjedt becslési eljárások:
+Szakaszos becslés
+Leírás: A projektet szakaszokra bontja, minden szakasz költségét és idejét külön becsüli. Fáziskapuk (döntési pontok) segítik a fejlesztés értékelését.
+Lépések:
+Teljes projekt ROM becslése + első szakasz részletes tervezése.
+Minden új szakasz előtt frissített becslés.
+Előnyök: Csökkentett kockázat, szakaszonkénti átláthatóság, leállíthatóság.
+Hátrányok: Váratlan költségek, felelősségvállalás hiánya.
+Arányos becslés
+Leírás: A projekt egészére készített becslés százalékos megosztása a szakaszok között (pl. WBS szerkezet alapján).
+Használat: Gyakran kombinálják szakaszos becsléssel a pontosság növelésére.
+Parametrikus becslés
+Leírás: Alapegységek (pl. munkaóra, termelési kapacitás) és korábbi adatok alapján történő számítás.
+Példa: 250 alkatrész gyártása 25 alkatrész/nap kapacitással → 10 nap.
+Alkalmazás: Fáziskapuknál kombinálva szakaszos becsléssel.
+Lentről felfelé becslés
+Leírás: A legpontosabb módszer, ahol minden feladat idő- és költségbecslését összegzik.
+Alkalmazhatóság: Részletes szakaszbecsléseknél, ha a projekt részletei ismertek.
+Összehasonlítás és cél:
+A módszerek kombinálhatók (pl. parametrikus + szakaszos) a pontosság növelésére.
+Cél: A költségek és időkeretek reális előrejelzése, a projekt gazdasági hatékonyságának biztosítása.
+A pontosság függ a projekt szakaszától (kezdeti fázisban ROM, később részletes becslések).
+A költségbecslés nemcsak a pénzügyi tervezés alapja, hanem kritikus szerepet játszik a kockázatkezelésben és a döntéshozatalban.
+
+
+	kiegyensúlyózás
+	
